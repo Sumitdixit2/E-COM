@@ -27,12 +27,13 @@ function NavBar() {
         <NavigationMenu className="gap-4">
           <NavigationMenuList className="md:flex-row flex-col">
             <NavigationMenuItem className="px-4">
+              <Link to={`/`}>
               <NavigationMenuLink
                 className="hover:bg-white ml-3"
-                href="http://localhost:5173/"
-              >
+                >
                 <Logo />
               </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
 
           </NavigationMenuList>
